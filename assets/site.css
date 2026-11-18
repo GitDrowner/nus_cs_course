@@ -150,6 +150,7 @@ nav .done{margin-left:auto;font-size:12px}
 .lesson p>img{display:block;max-width:100%;height:auto;margin:18px auto 6px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px}
 .lesson blockquote{margin:16px 0;padding:6px 18px;background:var(--soft);border-left:3px solid var(--accent);border-radius:0 12px 12px 0}
 .math .katex-display{margin:.8em 0}
+.lesson pre{max-width:100%;overflow-x:auto;margin:16px 0;padding:12px 16px;background:var(--soft);border-radius:10px;font-size:13px;line-height:1.6}
 .math pre{margin:12px 0;white-space:pre-wrap;font-size:13px}
 .table-wrap{overflow-x:auto;margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fff}
 table{border-collapse:collapse;width:100%;font-size:13px;background:#fff}
