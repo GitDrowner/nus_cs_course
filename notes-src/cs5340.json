@@ -8,13 +8,13 @@
   "brand_small": "THE STUDY COMPANION",
   "subject": "不确定性建模",
   "title": "CS5340 · 不确定性建模复习手册",
-  "description": "CS5340 Uncertainty Modelling in AI 复习：Lecture 1–10 逐页中文讲解、手算例题、中英术语对照与 Exercise 1 全部 18 题详解。",
+  "description": "CS5340 Uncertainty Modelling in AI 复习：Lecture 1–11 逐页中文讲解、手算例题、中英术语对照与 Exercise 1 全部 18 题详解。",
   "subsections": true,
   "hero": {
     "eyebrow": "CS5340 / UNCERTAINTY MODELLING IN AI",
-    "title": "从一张概率表，<br><span>走到变分推断。</span>",
-    "text": "概率基础、贝叶斯网络与马尔可夫随机场，精确推断、参数学习与 EM，再到 HMM、采样和变分推断。按课件逐页讲解，例题一步一步手算，每讲末尾附中英术语对照，适合零基础准备英文期末考试。",
-    "note": "按课件、Scribe 与 Exercise 1 整理，覆盖 Lecture 1–10。考试范围与题型以课程公告为准；这里的重点标注是复习建议。"
+    "title": "从一张概率表，<br><span>走到扩散模型。</span>",
+    "text": "概率基础、贝叶斯网络与马尔可夫随机场，精确推断、参数学习与 EM，再到 HMM、采样、变分推断，以及 VAE 和扩散模型。按课件逐页讲解，例题一步一步手算，每讲末尾附中英术语对照，适合零基础准备英文期末考试。",
+    "note": "按课件、Scribe 与 Exercise 1 整理，覆盖 Lecture 1–11。考试范围与题型以课程公告为准；这里的重点标注是复习建议。"
   },
   "metrics": [
     {
@@ -26,7 +26,7 @@
     "按讲复习，最后做 Exercise",
     "点卡片进入；每讲末尾都有中英术语对照"
   ],
-  "foot_note": "Lecture 01–10 · 中文讲解 + 英文术语<br>依据课件与 Exercise 1 整理",
+  "foot_note": "Lecture 01–11 · 中文讲解 + 英文术语<br>依据课件与 Exercise 1 整理",
   "split": [
     "逐讲笔记"
   ],
@@ -66,6 +66,12 @@
       "pages": [
         "L9",
         "L10"
+      ]
+    },
+    {
+      "label": "生成模型 · L11",
+      "pages": [
+        "L11"
       ]
     },
     {
@@ -177,6 +183,15 @@
       "desc": "ELBO 与 KL、均值场、正向与反向 KL、变分 GMM、Ising 去噪与环状 BP。"
     },
     {
+      "match": "L11 ",
+      "id": "L11",
+      "nav": "VAE 与扩散模型",
+      "num": "11",
+      "lecture": true,
+      "tag": "VAE AND DIFFUSION",
+      "desc": "判别与生成、VAE 的下界与重参数化、CVAE，扩散模型的前向加噪、反向去噪与“预测噪声”损失。"
+    },
+    {
       "match": "Exercise 1",
       "id": "ex1",
       "nav": "Exercise 1 详解",
@@ -186,9 +201,9 @@
       "desc": "18 道题：题目、考点、中文详解和可以照着写的英文答案，答案先折叠，做完再看。"
     },
     {
-      "match": "十讲速览",
+      "match": "十一讲速览",
       "id": "brief",
-      "nav": "十讲速览",
+      "nav": "十一讲速览",
       "num": "≡",
       "tag": "QUICK TOUR",
       "desc": "每讲一节：一句话、直觉、核心公式、小例子和易错点，适合第一遍建立印象或考前快速过一遍。"
