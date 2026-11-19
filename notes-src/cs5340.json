@@ -8,7 +8,7 @@
   "brand_small": "THE STUDY COMPANION",
   "subject": "不确定性建模",
   "title": "CS5340 · 不确定性建模复习手册",
-  "description": "CS5340 Uncertainty Modelling in AI 复习：Lecture 1–12 逐页中文讲解、手算例题、中英术语对照，以及 Exercise 1、2 全部 45 题详解。",
+  "description": "CS5340 Uncertainty Modelling in AI 复习：Lecture 1–12 逐页中文讲解、手算例题、中英术语对照，Exercise 1、2 全部 45 题详解，以及 46 道模拟题。",
   "subsections": true,
   "hero": {
     "eyebrow": "CS5340 / UNCERTAINTY MODELLING IN AI",
@@ -20,6 +20,10 @@
     {
       "value": 45,
       "label": "道 Exercise 例题"
+    },
+    {
+      "value": 46,
+      "label": "道模拟题"
     }
   ],
   "overview_head": [
@@ -85,6 +89,7 @@
       "pages": [
         "ex1",
         "ex2",
+        "mock",
         "brief",
         "final"
       ]
@@ -224,6 +229,15 @@
       "lecture": true,
       "tag": "EXERCISE 2",
       "desc": "27 道后半学期的题：EM、HMM、Gibbs / MH 采样、均值场和 graph cut，每题附中文详解和英文答案，答案先折叠。"
+    },
+    {
+      "match": "模拟题",
+      "id": "mock",
+      "nav": "模拟题",
+      "num": "M",
+      "lecture": true,
+      "tag": "MOCK EXAM",
+      "desc": "46 道自编模拟题，覆盖 L1–L12，英文题干、折叠的中文详解和英文答案，另有两套 12 题的模拟卷和 20 道判断题。"
     },
     {
       "match": "十二讲速览",
