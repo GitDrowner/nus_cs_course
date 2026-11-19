@@ -52,12 +52,12 @@
       "code": "CS5340",
       "title": "不确定性建模",
       "title_en": "Uncertainty Modelling in AI",
-      "scope": "Lecture 1–11 · Exercise 1–2",
+      "scope": "Lecture 1–12 · Exercise 1–2",
       "updated": "2026-11",
-      "summary": "从概率基础、贝叶斯网络和马尔可夫随机场，讲到变量消元、联结树、参数学习与 EM，再到 HMM、蒙特卡洛采样、变分推断，以及 VAE 和扩散模型。按课件逐页中文讲解，例题一步一步手算，每讲附中英术语对照，Exercise 1、2 全部 45 题详解。",
+      "summary": "从概率基础、贝叶斯网络和马尔可夫随机场，讲到变量消元、联结树、参数学习与 EM，再到 HMM、蒙特卡洛采样、变分推断、VAE 和扩散模型，以及 graph cut。按课件逐页中文讲解，例题一步一步手算，每讲附中英术语对照，Exercise 1、2 全部 45 题详解。",
       "chips": [
         "零基础中文讲解",
-        "11 讲 + 手算例题",
+        "12 讲 + 手算例题",
         "中英术语对照",
         "Exercise 1–2 全解"
       ],
@@ -85,7 +85,7 @@
         }
       ],
       "stats": {
-        "lectures": 11,
+        "lectures": 12,
         "selftests": 45
       }
     },
