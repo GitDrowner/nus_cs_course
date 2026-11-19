@@ -8,13 +8,13 @@
   "brand_small": "THE STUDY COMPANION",
   "subject": "不确定性建模",
   "title": "CS5340 · 不确定性建模复习手册",
-  "description": "CS5340 Uncertainty Modelling in AI 复习：Lecture 1–11 逐页中文讲解、手算例题、中英术语对照，以及 Exercise 1、2 全部 45 题详解。",
+  "description": "CS5340 Uncertainty Modelling in AI 复习：Lecture 1–12 逐页中文讲解、手算例题、中英术语对照，以及 Exercise 1、2 全部 45 题详解。",
   "subsections": true,
   "hero": {
     "eyebrow": "CS5340 / UNCERTAINTY MODELLING IN AI",
     "title": "从一张概率表，<br><span>走到扩散模型。</span>",
-    "text": "概率基础、贝叶斯网络与马尔可夫随机场，精确推断、参数学习与 EM，再到 HMM、采样、变分推断，以及 VAE 和扩散模型。按课件逐页讲解，例题一步一步手算，每讲末尾附中英术语对照，适合零基础准备英文期末考试。",
-    "note": "按课件、Scribe 与 Exercise 1、2 整理，覆盖 Lecture 1–11。考试范围与题型以课程公告为准；这里的重点标注是复习建议。"
+    "text": "概率基础、贝叶斯网络与马尔可夫随机场，精确推断、参数学习与 EM，再到 HMM、采样、变分推断、VAE 和扩散模型，以及 graph cut。按课件逐页讲解，例题一步一步手算，每讲末尾附中英术语对照，适合零基础准备英文期末考试。",
+    "note": "按课件、Scribe 与 Exercise 1、2 整理，覆盖全部 Lecture 1–12。考试范围与题型以课程公告为准；这里的重点标注是复习建议。"
   },
   "metrics": [
     {
@@ -26,7 +26,7 @@
     "按讲复习，最后做 Exercise",
     "点卡片进入；每讲末尾都有中英术语对照"
   ],
-  "foot_note": "Lecture 01–11 · 中文讲解 + 英文术语<br>依据课件与 Exercise 1、2 整理",
+  "foot_note": "Lecture 01–12 · 中文讲解 + 英文术语<br>依据课件与 Exercise 1、2 整理",
   "split": [
     "逐讲笔记"
   ],
@@ -72,6 +72,12 @@
       "label": "生成模型 · L11",
       "pages": [
         "L11"
+      ]
+    },
+    {
+      "label": "MAP 推断 · L12",
+      "pages": [
+        "L12"
       ]
     },
     {
@@ -193,6 +199,15 @@
       "desc": "判别与生成、VAE 的下界与重参数化、CVAE，扩散模型的前向加噪、反向去噪与“预测噪声”损失。"
     },
     {
+      "match": "L12 ",
+      "id": "L12",
+      "nav": "Graph-cut 与 α 扩展",
+      "num": "12",
+      "lecture": true,
+      "tag": "GRAPH CUT",
+      "desc": "最大流 / 最小割与增广路径，二值和多标签 MRF 的建图与子模条件，非子模时的 alpha 扩展。"
+    },
+    {
       "match": "Exercise 1",
       "id": "ex1",
       "nav": "Exercise 1 详解",
@@ -211,9 +226,9 @@
       "desc": "27 道后半学期的题：EM、HMM、Gibbs / MH 采样、均值场和 graph cut，每题附中文详解和英文答案，答案先折叠。"
     },
     {
-      "match": "十一讲速览",
+      "match": "十二讲速览",
       "id": "brief",
-      "nav": "十一讲速览",
+      "nav": "十二讲速览",
       "num": "≡",
       "tag": "QUICK TOUR",
       "desc": "每讲一节：一句话、直觉、核心公式、小例子和易错点，适合第一遍建立印象或考前快速过一遍。"
