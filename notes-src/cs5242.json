@@ -8,14 +8,14 @@
   "brand_small": "THE STUDY COMPANION",
   "subject": "神经网络与深度学习",
   "title": "CS5242 · 神经网络与深度学习复习手册",
-  "description": "CS5242 Lecture 1–10 期末复习：逐段中英对照的概念讲解、公式、手算例题、Quiz 解析与自测。",
+  "description": "CS5242 Lecture 1–12 期末复习：逐段中英对照的概念讲解、公式、手算例题、Quiz 解析与自测。",
   "hero": {
     "eyebrow": "CS5242 / FINAL EXAM STUDY GUIDE",
-    "title": "从一个神经元，<br><span>走到 GPT 推理。</span>",
-    "text": "线性回归、反向传播、优化器，再到 Transformer、BERT 与 GPT。每段中文后面紧跟英文，公式和手算步骤一步不省，适合零基础准备闭卷考试。",
-    "note": "按课件、讲义与 Quiz 7–10 整理。考试范围与题型以课程公告为准；这里的重点标注是复习建议。"
+    "title": "从一个神经元，<br><span>走到 ChatGPT 与扩散模型。</span>",
+    "text": "线性回归、反向传播、优化器，再到 Transformer、BERT、GPT、RLHF 与扩散模型。每段中文后面紧跟英文，公式和手算步骤一步不省，适合零基础准备闭卷考试。",
+    "note": "按课件、讲义与 Quiz 7–12 整理。考试范围与题型以课程公告为准；这里的重点标注是复习建议。"
   },
-  "foot_note": "Lecture 01–10 · 中英对照版<br>依据课件与讲义整理",
+  "foot_note": "Lecture 01–12 · 中英对照版<br>依据课件与讲义整理",
   "split": [
     "逐讲笔记"
   ],
@@ -41,12 +41,14 @@
       ]
     },
     {
-      "label": "后半程 · L7–L10",
+      "label": "后半程 · L7–L12",
       "pages": [
         "L7",
         "L8",
         "L9",
-        "L10"
+        "L10",
+        "L11",
+        "L12"
       ]
     },
     {
@@ -73,7 +75,7 @@
       "nav": "课程地图",
       "num": "⌖",
       "tag": "COURSE MAP",
-      "desc": "十讲一张表：每讲讲什么、必会什么、对应哪次作业或 Quiz。"
+      "desc": "十二讲一张表：每讲讲什么、必会什么、对应哪次作业或 Quiz。"
     },
     {
       "match": "L1 ",
@@ -175,6 +177,24 @@
       "desc": "prefill 与 decode、KV 缓存、贪心、top-k 采样与 beam search。"
     },
     {
+      "match": "L11 ",
+      "id": "L11",
+      "nav": "RLHF",
+      "num": "11",
+      "lecture": true,
+      "tag": "RLHF",
+      "desc": "SFT、奖励模型排序损失、PPO 与 KL 约束、价值网络、对齐税。"
+    },
+    {
+      "match": "L12 ",
+      "id": "L12",
+      "nav": "扩散模型",
+      "num": "12",
+      "lecture": true,
+      "tag": "DIFFUSION",
+      "desc": "DDPM 加噪去噪、VAE 潜空间、交叉注意力、CFG、Wan 视频与 flow matching。"
+    },
+    {
       "match": "闭卷考前必背清单",
       "id": "checklist",
       "nav": "闭卷必背清单",
@@ -188,7 +208,7 @@
       "nav": "公式速查",
       "num": "∑",
       "tag": "FORMULA SHEET",
-      "desc": "41 行一页纸：每个概念必须能默写的公式和结论。"
+      "desc": "47 行一页纸：每个概念必须能默写的公式和结论。"
     },
     {
       "match": "自测题与答案",
@@ -196,7 +216,7 @@
       "nav": "自测题",
       "num": "?",
       "tag": "SELF-TEST",
-      "desc": "22 道小题，先自己做，再点开看答案。"
+      "desc": "29 道小题，先自己做，再点开看答案。"
     }
   ]
 }
