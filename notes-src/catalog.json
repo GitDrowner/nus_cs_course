@@ -132,11 +132,13 @@
       "title_en": "Neural Networks and Deep Learning",
       "scope": "Lecture 1–12 · 期末闭卷",
       "updated": "2026-11",
-      "summary": "从线性回归、反向传播一路讲到 Transformer、BERT、GPT、推理、RLHF 与扩散模型。每段中文后面紧跟英文，公式、手算例题和 Quiz 解析齐全。",
+      "summary": "从线性回归、反向传播一路讲到 Transformer、BERT、GPT、推理、RLHF 与扩散模型。每段中文后面紧跟英文，公式、手算例题、作业与 Quiz 解析、32 道官方练习题详解和一套期末模拟卷。",
       "chips": [
         "逐段中英对照",
         "12 讲 + 作业推导",
-        "6 套 Quiz 解析",
+        "作业与 Quiz 精讲",
+        "32 道官方练习题",
+        "期末模拟卷",
         "29 道自测"
       ],
       "accent": "blue",
