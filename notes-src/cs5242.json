@@ -8,16 +8,17 @@
   "brand_small": "THE STUDY COMPANION",
   "subject": "神经网络与深度学习",
   "title": "CS5242 · 神经网络与深度学习复习手册",
-  "description": "CS5242 Lecture 1–12 期末复习：逐段中英对照的概念讲解、公式、手算例题、Quiz 解析与自测。",
+  "description": "CS5242 Lecture 1–12 期末复习：逐段中英对照的概念讲解、公式、手算例题、Quiz 与作业解析、32 道官方练习题详解、期末模拟卷与自测。",
   "hero": {
     "eyebrow": "CS5242 / FINAL EXAM STUDY GUIDE",
     "title": "从一个神经元，<br><span>走到 ChatGPT 与扩散模型。</span>",
     "text": "线性回归、反向传播、优化器，再到 Transformer、BERT、GPT、RLHF 与扩散模型。每段中文后面紧跟英文，公式和手算步骤一步不省，适合零基础准备闭卷考试。",
-    "note": "按课件、讲义与 Quiz 7–12 整理。考试范围与题型以课程公告为准；这里的重点标注是复习建议。"
+    "note": "按课件、讲义、作业、Quiz 3/7–13 与官方练习题整理。考试范围与题型以课程公告为准；这里的重点标注是复习建议。"
   },
   "foot_note": "Lecture 01–12 · 中英对照版<br>依据课件与讲义整理",
   "split": [
-    "逐讲笔记"
+    "逐讲笔记",
+    "作业、Quiz 与模拟题"
   ],
   "groups": [
     {
@@ -57,6 +58,16 @@
         "checklist",
         "formulas",
         "selftest"
+      ]
+    },
+    {
+      "label": "作业 · Quiz · 模拟",
+      "pages": [
+        "qa",
+        "A25",
+        "P1",
+        "P2",
+        "mock"
       ]
     }
   ],
@@ -217,6 +228,46 @@
       "num": "?",
       "tag": "SELF-TEST",
       "desc": "29 道小题，先自己做，再点开看答案。"
+    },
+    {
+      "match": "作业与 Quiz 重点总览",
+      "id": "qa",
+      "nav": "作业与 Quiz 总览",
+      "num": "★",
+      "tag": "OVERVIEW",
+      "desc": "五份作业、八次 Quiz、32 道官方练习题考什么、在哪一页，以及高频题型与答题套路。"
+    },
+    {
+      "match": "作业 2–5 精讲",
+      "id": "A25",
+      "nav": "作业 2–5 精讲",
+      "num": "A2",
+      "tag": "ASSIGNMENTS",
+      "desc": "PyTorch 与最小二乘、手写 MLP、实现 Adam、训练 Qwen3：每题的考点、解析与你的结果。"
+    },
+    {
+      "match": "练习题精讲（上）",
+      "id": "P1",
+      "nav": "练习题 Q1–16",
+      "num": "P1",
+      "tag": "PRACTICE",
+      "desc": "官方期末练习题 Q1–Q16（含 Quiz 13）：题目、折叠的完整步骤与评分点。"
+    },
+    {
+      "match": "练习题精讲（下）",
+      "id": "P2",
+      "nav": "练习题 Q17–32",
+      "num": "P2",
+      "tag": "PRACTICE",
+      "desc": "官方期末练习题 Q17–Q32：MoE 均衡、LoRA、FlashAttention、CLIP、RLHF 权衡等。"
+    },
+    {
+      "match": "期末模拟卷",
+      "id": "mock",
+      "nav": "期末模拟卷",
+      "num": "M",
+      "tag": "MOCK EXAM",
+      "desc": "12 道题、80 分，照官方格式出的新题，附评分点和详细解析。"
     }
   ]
 }
